@@ -9,7 +9,7 @@ public class Gerente extends Funcionario {
     }
     // Imprime uma mensagem indicando que o gerente está conduzindo uma reunião.
 
-    
+    @Override
     public void mostrarDados() {
         System.out.println("Cargo: Gerente");
         super.mostrarDados();
