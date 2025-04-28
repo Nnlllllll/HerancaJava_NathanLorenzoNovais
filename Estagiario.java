@@ -9,7 +9,7 @@ public class Estagiario extends Funcionario {
     }
     // Imprime uma mensagem indicando que o estagiário está executando uma tarefa.
 
-    
+    @Override
     public void mostrarDados() {
         System.out.println("Cargo: Estagiário");
         super.mostrarDados();
