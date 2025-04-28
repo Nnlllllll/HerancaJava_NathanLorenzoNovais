@@ -8,7 +8,7 @@ public class Desenvolvedor extends Funcionario {
         System.out.println(nome + " está programando.");
     }
     // Imprime uma mensagem indicando que o desenvolvedor está realizando uma tarefa de programação.
-
+    @Override
     public void mostrarDados() {
         System.out.println("Cargo: Desenvolvedor");
         super.mostrarDados();
